@@ -1,0 +1,16 @@
+Output Understanding and Explanation:
+Generation 0:
+
+Creatures move to new positions.
+Fitness values show how close each creature is to the target peak (less negative means closer).
+Best creatures are selected for the next generation.
+Generation 1 to 4:
+
+Same process repeats: creatures move, fitness values are calculated, and best creatures are selected.
+Fitness values generally get better each generation, showing creatures are evolving and getting closer to the peak.
+
+Summary
+Move: Creatures move randomly.
+Fitness: Calculated based on closeness to the target (less negative is better).
+Selection: Best creatures are picked to create the next generation.
+Evolution: Fitness improves over generations, showing progress.
